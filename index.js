@@ -5,8 +5,8 @@ const bot = new Discord.Client({
 })
 const fetch = require('node-fetch')
 const fs = require('fs')
-const config = require('./Config.json');
-const displays = require('./Displays.json')
+const config = require('./config.json');
+const displays = require('./displays.json')
 
 let serverid = config.server
 
